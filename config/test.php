@@ -1,6 +1,6 @@
 <?php
-$params = require __DIR__ . '/params.php';
-$db = require __DIR__ . '/test_db.php';
+$params = require __DIR__ . '/params.local.php';
+$db = require __DIR__ . '/test_db.local.php';
 
 /**
  * Application configuration shared by all test types
